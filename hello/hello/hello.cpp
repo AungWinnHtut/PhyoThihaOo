@@ -1,26 +1,26 @@
-#include<stdio.h>
+﻿#include<stdio.h>
 #include<conio.h>
 int main()
 {
-	float A=0.0;
-	float r=0.0;
-	float b=0.0;
-	float c=0.0;
-	float z=0.0;
+	float Ans=0.0;
+	int a=0.0;
 
 
-	printf("please enter r in (m) ");
-	scanf("%f",&r);
-	printf("please enter b in (m) ");
-	scanf("%f",&b);
-	printf("please enter c in (m) ");
-	scanf("%f",&c);
-	printf("please enter z in (m) ");
-	scanf("%f",&z);
 
-	A=3.14*r*b*c/z;
 
-	printf("Area is = %f (sq m)",A);
+	printf("please enter a   ");
+	scanf("%d",&a);
+	
+
+	switch(a)
+	{
+	case 0: printf("a=0\n");break;
+	case 1: printf("a=1\n");break;
+	case 2: printf("a=2\n");break;
+	default: printf("a!= 1 2 3\n");break;
+	}
+	
+
 
 	_getch();
 	return 0;
@@ -43,3 +43,5 @@ int main()
 	////Output results
 	////print out
 	//printf("Area of circle = %f (sq m)",A);
+
+//၁ က်ပ္ = ၁၆ ပဲ = ၁၂၈ ေရြး
